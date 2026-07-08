@@ -45,7 +45,7 @@ An Arduino-based project that combines a **PIR motion sensor**, an **HC-SR04 ult
   Library needed: "LiquidCrystal I2C" by Frank de Brabander
   (install via Arduino IDE Library Manager)
 */
-
+'
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 
@@ -142,6 +142,7 @@ void loop() {
 
   delay(300);
 }
+'
 ```
 
 ## Code Walkthrough
